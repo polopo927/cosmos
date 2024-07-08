@@ -1,0 +1,15 @@
+.logo {
+  a {
+    color: white;
+    display: inline-block;
+    text-indent: -1234em;
+    background: url('./images/logo.png') center no-repeat no-repeat;
+    background-size: contain;
+    width: 10.4rem;
+    height: 1.3rem;
+  }
+
+  &:hover {
+    color: red;
+  }
+}
