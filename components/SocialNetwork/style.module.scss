@@ -1,0 +1,28 @@
+.socialNetworks {
+  display: flex;
+  gap: 3vw;
+
+  &Discord {
+    background: url('./images/discord_icon.svg');
+    background-size: 90% auto;
+  }
+
+  &Twitter {
+    background: url('./images/twitter_icon.svg');
+    background-size: 90% auto;
+  }
+
+  &AntDesign {
+    background: url('./images/ant-design-icon.svg');
+  }
+
+  &Link {
+    color: white;
+    text-indent: -1234em;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
