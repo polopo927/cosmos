@@ -7,9 +7,15 @@
     background-size: contain;
     width: 10.4rem;
     height: 1.3rem;
+    transition: opacity 0.3s;
+  }
+
+  &:hover,
+  &:visited {
+    color: white;
   }
 
   &:hover {
-    color: red;
+    opacity: 0.7;
   }
 }

@@ -1,30 +1,31 @@
 import styles from '../styles/home.module.scss'
 import cl from 'classnames'
 import { Logo } from '../components/Logo';
+import { SocialNetworks } from '../components/SocialNetwork';
+import { Button } from '../components/Button';
+import { Navigation } from '../components/Navigation';
+import { Title } from '../components/Title';
 
 export default function Home() {
   return (
     <div>
       <section className={cl(styles.section, styles.sectionMain)}>
-        <header>
+        <header className={styles.header}>
           <Logo />
-         {/*  <SocialNetwork />
+          <SocialNetworks />
           <Button
             onClick={() => {
-
             }}
           >
             Whitepaper
-          </Button> */}
+          </Button>
         </header>
-        {/* <Navigation />
+        {/* <Navigation /> */}
         <div>
-          <Title
-            type="h2"
-          >
-            From dust to dawn
+          <Title>
+          From dust to&nbsp;dawn
           </Title>
-          <ul>
+          <ul className={styles.buttonList}>
             <li>
               <Button
                 onClick={() => { }}
@@ -40,7 +41,7 @@ export default function Home() {
               </Button>
             </li>
           </ul>
-        </div> */}
+        </div>
       </section>
     </div>
   );
